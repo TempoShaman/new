@@ -1,0 +1,9 @@
+# Proto Net experiments
+python -m experiments.proto_nets --dataset omniglot --k-test 5 --n-test 1
+python -m experiments.proto_nets --dataset omniglot --k-test 5 --n-test 5
+python -m experiments.proto_nets --dataset omniglot --k-test 20 --n-test 1
+python -m experiments.proto_nets --dataset omniglot --k-test 20 --n-test 5 --n-train 5
+
+python -m experiments.proto_nets --dataset miniImageNet --k-test 5 --n-test 5 --k-train 5 --n-train 5 --q-train 5 --q-test 5
+python -m experiments.proto_nets --dataset miniImageNet --k-test 1 --n-test 1 --k-train 10 --n-train 5 --q-train 15 --q-test 5
+
